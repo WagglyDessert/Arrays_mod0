@@ -17,3 +17,14 @@ p floats
 # calling boolies.push(false) will add the element (false) to the end of the array
 boolies.push(false)
 p boolies
+
+#demonstrate understanding of index positions
+# if I call any of the arrays using square brackets and a number, I will get the element at that index location
+# for example, strings[2] should give me the third element in the array (because counting starts at zero), which should be "c"
+p strings[2]
+# similarly ints[0] should give me the firt element, "2" (this is because the "1" was shifted)
+p ints[0]
+# floats[3] should give me the fourth element, "3.00" (this is because "0.00" was added to the front of the array with unshift)
+p floats[3]
+# and boolies[1] should give me the second indexed element, "false"
+p boolies[1]
