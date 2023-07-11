@@ -28,3 +28,14 @@ p ints[0]
 p floats[3]
 # and boolies[1] should give me the second indexed element, "false"
 p boolies[1]
+
+# new method -- combination
+# yields all combinations of length n of elements from the array
+# this will show single element combinations (aka repeat the int array)
+p "#{ints.combination(1).to_a}"
+# this will show combinations of two elements
+p "#{ints.combination(2).to_a}"
+# this will show combination of three elements
+p "#{ints.combination(3).to_a}"
+# this will show combination of four elements; because there aren't four elements, it won't return anything
+p "#{ints.combination(4).to_a}"
